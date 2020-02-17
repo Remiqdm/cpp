@@ -1,0 +1,110 @@
+/*haut de page;*/
+header
+{
+	display: flex;
+	flex-direction: column;
+}
+
+ul
+{
+	display:flex;
+	font-size:1em;
+	justify-content:space-around;
+  	list-style-type: none;
+}
+
+div.page a 
+{
+		text-decoration: none;
+		color: rgb(34,68,119)
+}
+
+h1
+{
+	display: flex;
+	margin:auto; 
+	margin-top: 4.5em;
+	justify-content: space-around;
+	text-align: center;
+	color:rgba(0,0,0,0.85);
+	font-size:3em;
+	font-family: Trajan,Raleway;
+}
+
+div.page
+{
+	border: 1px black solid;
+	border-radius: 20px/20px;
+	box-shadow: 4px 4px 10px black;
+	padding: 5px 8px 5px 8px;
+}
+
+/*div.page a hover
+{
+	border: 1px black solid;
+	border-radius: 20px/20px;
+	box-shadow: 4px 4px 10px black;
+	padding: 5px 8px 5px 8px;
+	background-color: (150,150,80);
+}*/
+
+div.tete
+{  
+	margin: -10px -10px -10px -10px;
+	display: flex;
+	flex-direction: column;
+	height:415px; 
+   background: url("img/ncy1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+
+div.menu 
+{	
+	font-size: 1.5em;
+	margin: 0px 10px 0px 10px;
+}
+
+
+div.menu a:hover
+{
+	color: rgba(170,170,170,0.8);
+    transition: color .4s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+/*footer*/
+footer
+{
+	display: flex;
+	align-items: end;
+	height:125px;
+	padding: 10px 0px 0px 0px;
+	background-color:black;
+	margin: 0px -15px -15px -15px;
+}
+
+h3
+{
+margin: auto;
+color: white;
+text-align:center;
+font-family:lucida;
+font-size: 2em;
+}
+h3 a
+{
+	color: rgb(34,68,119);
+	text-decoration: none;
+}
+
+h3 a:hover
+{
+	color: rgb(34,68,119);
+	font-size: 1.1em;
+}
